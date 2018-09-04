@@ -22,7 +22,7 @@ SaveDataManager.SaveData("Levels", new  int[] { 1, 2, 3, 4, 5 });
  
  ### Getting Data
   ```D
-int  Highscore = SaveDataManager.GetData<int>("Highscore");
+int Highscore = SaveDataManager.GetData<int>("Highscore");
 
 int[] Levels = SaveDataManager.GetData<int[]>("Levels");
  ```
